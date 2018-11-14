@@ -1,0 +1,155 @@
+main {
+    width: 100%;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.ttf');
+}
+
+body {
+    font-family: 'Poppins', Serif;
+    padding-bottom: 5em;
+}
+
+.logoMenu {
+	width: 1.4em;
+	height: 1.4em;
+}
+
+#currentTeam {
+	text-align: center;
+	margin-bottom: 3em;
+	margin-top: -2em;
+}
+
+#teamNews {
+	display: flex;
+	justify-content: space-between;
+}
+
+#news {
+	width: 49%;
+}
+
+#news h4 {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	border-bottom: groove 2px;
+}
+
+#nextGames {
+	width: 49%;
+}
+
+#title {
+	text-align: center;
+	text-decoration: underline;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+.subtitles {
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 1em;
+}
+
+#homeWordcloud {
+	width: 600px;
+	display: block;
+	margin: auto;
+	margin-bottom: 2em;
+}
+
+#bothWordcloud {
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#wordcloud, #teamWordcloud {
+	margin: 0 auto 0 auto;
+	display: block;
+	width: 600px;
+}
+
+#wordcloud {
+	margin-bottom: 3em;
+}
+
+.wordcloudTitles {
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 1em;
+}
+
+#article {
+	width: 80%;
+	margin: auto;
+}
+
+table {
+	width: 100%;
+	margin: auto;
+}
+
+#mainTable tr {
+	border-bottom: ridge 2px;
+}
+
+#mainTable .bigTR {
+	border-top: solid;
+	border-bottom: solid;
+}
+
+#mainTable .bigTR + .quotas {
+	border-top: solid;
+}
+
+.quotas td:first-child {
+	padding-left: 5px;
+}
+
+.quotas td {
+	vertical-align: top;
+}
+
+#mainTable {
+	border-bottom: solid;
+}
+
+th, td {
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+td:first-child {
+	text-align: left;
+}
+
+.matchName {
+	font-size: 1.5em;
+}
+
+.expand {
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.historicTable {
+	margin-bottom: 1em;
+	width: 90%;
+	border: solid 1px
+	padding: 0.5em;
+}
+
+.historicTable tr {
+	border-bottom: solid 5px;
+}
+
+.alignTop {
+	vertical-align: top;
+}
